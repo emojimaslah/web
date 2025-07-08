@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #5a5150; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    background-color: #1b2222;
+    padding: 10px 20px;
+    border-radius: 15px;
+
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 80px;
+    padding: 7px;
+    border-radius: 50px;
+    height: 80px;
+    box-shadow: -8px -8px 15px rgba(255,255, 255, 0.1),5px 5px 15px rgba(0,0, 0, 0.2);
+    background: transparent;
+    color:gold;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 10px;
+    transition: .5s;
+}
+.calculator form input:visited{
+    background: transparent;
+    text-decoration: none;
+
+}
+.calculator form input:hover{
+    background-color:#a89e0d ;
+    color: rgb(255, 255, 255);
+}
+ form #display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+
+}
+form #display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+    background: #1b2222;
+    color: #fff;
+}
+form input#equal{
+    width: 179px;
+    background: goldenrod;
+    color: #1b2222;
+    transition: .5s;
+}
+form input#equal:visited{
+    background: transparent;
+
+}
+form input#equal:hover{
+    background: #1b2222;
+    color: whitesmoke;
+
+}
+form input#cidhif{
+    color: rgb(0, 0, 0);
+    background: goldenrod;
+    transition: .5s;
+}
+form input#cidhif:visited{
+    background: transparent;
+}
+form input#cidhif:hover{
+    color: #ffffff;
+    background: #1b2222;
+    transition: .5s;
+}
+form input#kada{
+    background: #1b2222;
+    color: gold;
+}
+form input#kada:active{
+    background:gold;
+}
